@@ -1,4 +1,76 @@
 img {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
+  box-shadow: 0 0 10px #8a98ad;
+}
+
+.btn-contact {
+    background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);
+    border-width: 0;
+    border-radius: 2px;
+    box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 16px 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: box-shadow 1s ease;
+            transition: box-shadow 1s ease;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p,
+h3 {
+    font-family: "Average";
+}
+
+h1 {
+    font-family: "Nixie One";
+    font-weight: bold;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: "Average";
+    color: #8a98ad;
+    font-size: 24px;
+}
+
+.light-green {
+    color: #4dc176;
+}
+
+.red {
+    color: #c950a3;
+}
+
+span.glyphicon {
+    font-size: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.glyphicon-file:before,
+.glyphicon-wrench:before,
+.glyphicon-envelope:before {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.row {
+    margin-top: 80px;
+}
+
+.glyphicon-file:hover {
+    color: #4dc176;
+}
+
+.glyphicon-wrench:hover {
+    color: #c950a3;
+}
+
+.glyphicon-envelope:hover {
+    color: #f99b43;
 }
