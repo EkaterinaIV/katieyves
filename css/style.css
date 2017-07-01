@@ -13,7 +13,7 @@ body {
   width:200px;
   height: 200px;
   border-radius: 50%;
-  background-image: url('/img/DSC00223_500x678.jpg');
+  background-image: url('../img/DSC00223_500x678.jpg');
   background-position: -5px -15px;
   background-size: cover;
 }
