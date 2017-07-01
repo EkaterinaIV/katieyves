@@ -1,7 +1,21 @@
-img {
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-bottom: 20px;
+}
+
+.img-main {
   display: block;
   margin: 20px auto;
   box-shadow: 0 0 10px #8a98ad;
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url('../img/DSC00223_500x678.jpg');
+  background-position: -5px -15px;
+  background-size: cover;
 }
 
 .btn-contact {
@@ -20,9 +34,10 @@ img {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-p,
 h3 {
     font-family: "Average";
+    font-weight: bold;
+    transition: transform .2s;
 }
 
 h1 {
@@ -59,18 +74,46 @@ span.glyphicon {
     text-align: center;
 }
 
-.row {
-    margin-top: 80px;
+.flip-card:hover {
+    border: 1px solid;
+    border-radius: 2px;
 }
 
-.glyphicon-file:hover {
-    color: #4dc176;
+.card-portfolio:hover {
+    border-color: #39c1b3;
+    box-shadow: 0 0 10px #39c1b3;
 }
 
-.glyphicon-wrench:hover {
-    color: #c950a3;
+.card-contacts:hover {
+    border-color: #ce66b8;
+    box-shadow: 0 0 10px #ce66b8;
 }
 
-.glyphicon-envelope:hover {
-    color: #f99b43;
+.card-skills:hover {
+    border-color: #6aca36;
+    box-shadow: 0 0 10px #6aca36;
+}
+
+.flip-card {
+    display: block;
+    margin: auto;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid transparent;
+}
+
+.card-portfolio:hover h3 {
+    color: #39c1b3;
+}
+
+.card-contacts:hover h3 {
+    color: #ce66b8;
+}
+
+.card-skills:hover h3 {
+    color: #6aca36;
+}
+
+.flip-card:hover h3 {
+    transform: scale(1.05);
 }
