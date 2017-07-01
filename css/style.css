@@ -118,6 +118,7 @@ span.glyphicon {
     transition: transform .6s ease;
     transform-style: preserve-3d;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .card-portfolio:hover .front h3 {
