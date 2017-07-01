@@ -114,6 +114,7 @@ span.glyphicon {
 .flip-card {
     margin: auto;
     width: 200px;
+    height: 200px;
     transition: transform .6s ease;
     transform-style: preserve-3d;
     position: relative;
